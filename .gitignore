@@ -1,0 +1,23 @@
+# macOS system files
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# PHP dependencies
+/vendor/
+
+# Temporary files
+*.log
+*.tmp
+
+# Cache files
+.cache/
+# Ignore local database configuration
+db_connect.php

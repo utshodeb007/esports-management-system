@@ -1,0 +1,16 @@
+<?php
+
+$host = "localhost";
+$username = "your_database_username";
+$password = "your_database_password";
+$database = "esports_tournament";
+
+// Create connection
+$conn = new mysqli($host, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+?>
